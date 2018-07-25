@@ -3,11 +3,5 @@
 <h2>WE ARE <%=@team[:name]%></h2>
 <h3>Team Motto: <%=@team[:motto]%></h3>
   <h3>Hero Name: <%=@team[members][][name]%></h3>
-  <p><%=@team[members][][power]%></p>
-  <p><%=@team[members][][bio]%></p>
-  <h3><%=@team[members][][name]%></h3>
-  <h3><%=@team[members][][power]%></h3>
-  <h3><%=@team[members][][bio]%></h3>
-  <h3><%=@team[members][][name]%></h3>
-  <h3><%=@team[members][][power]%></h3>
-  <h3><%=@team[members][][bio]%></h3>
+    <p><%=@team[:members][][:power]%></p>
+    <p><%=@team[:members][][:bio]%></p>
