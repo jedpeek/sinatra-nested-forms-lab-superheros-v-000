@@ -2,5 +2,8 @@
 
 <h2>WE ARE <%=@team[:name]%></h2>
 <h3>Team Motto: <%=@team[:motto]%></h3>
-<%@team[:members].each do |hero|
+<%@team[:members].each do |hero|%>
 <h3>Hero Name: <%=hero[:name]%></h3>
+<p><%=hero[:power]%></p>
+<p><%=hero[:bio]%></p>
+<%end%>
